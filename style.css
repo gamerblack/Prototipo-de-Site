@@ -1,0 +1,34 @@
+header {
+    background-color: #2F4F5B;
+    height: 330px;
+}
+
+img{
+    height: 300px;
+    border-radius: 100%;
+    background-color: red;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.dest{
+    color: red;
+}
+
+/* only só de enfeite */
+
+@media only screen and (max-width: 600px) {
+    nav {
+      background-color: lightblue;
+      color: blueviolet;
+    }
+
+}
+
+
+
